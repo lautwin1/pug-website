@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pug Website</title>
+    <link rel="stylesheet" href="../style.css" />
+    
+    <!------------Icons------------>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../pictures/Icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../pictures/Icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../pictures/Icons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+  </head>
+
+  <body>
+    <header>
+      <h1>A literal website for my dog</h1>
+      <h2>Her name is Mele by the way</h2>
+      <h3>Fabian's Crush/Side Chick</h3>
+
+      <!------------DDROPDOWN SECTION------------>
+      <section class="dropdownMenu">
+        <ul class="dropdownList">
+          <li><a href="../dropdownHTML/about.html">About</a></li>
+          <!--About Page-->
+          <li><a href="../HTML/index.html">Home</a></li>
+          <!--Home Page-->
+          <li>
+            <a href="../dropdownHTML/products.html">Products ▾</a>
+            <!--Products Dropdown Page-->
+            <ul class="dropdown">
+              <li><a href="../dropdownHTML/products/toys.html">Toys</a></li>
+              <!--Toys Page-->
+              <li><a href="../dropdownHTML/products/food.html">Food</a></li>
+              <!--Food Page-->
+            </ul>
+          </li>
+          <li><a href="../dropdownHTML/contact.html">Contact</a></li>
+          <!--Contacts Page-->
+        </ul>
+      </section>
+      <!------------DDROPDOWN SECTION------------>
+
+      <img
+        id="pugPic1"
+        src="../pictures/PugPictures/pugpic1.jpg"
+        width="200"
+        hieght="200"
+      />
+      <br>
+      <button id="picBtn">Click me for a new picture!</button>
+    </header>
+
+    <main>
+      <section class="intro">
+        <h2 class="introTitle">Why my dog is just better</h2>
+        <div class="monologue">
+          <p class="mText">
+            I've had my pug for a while now and this is probably the most
+            adorable dog that you will see ever. Some people might say that pugs
+            are ugly because of all the wrinkles. But I say wrong. The wrinkles
+            only make the pug more adorable. And I would put my dog up against
+            any other dog to prove it
+          </p>
+        </div>
+      </section>
+
+      <section class="pugFacts">
+        <h2 class="factTitle">Some facts about her:</h2>
+        <div class="factContainer">
+          <ul class="factList">
+            <li>She likes to sleep</li>
+            <li>She snores (a lot) when she sleeps</li>
+            <li>She goes on a walk every day</li>
+            <li>She is a good girl</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="pugRank">
+        <h2 class="rankTitle">Her favorite family members in order:</h2>
+        <div class="rankContainer">
+          <ol class="rankList">
+            <li>Alex: She likes to sleep with him at night</li>
+            <li>Dad: He plays with her the most</li>
+            <li>Mom: Her and Mom are nuetral</li>
+            <li>Landon: He feeds her but he also teases her</li>
+            <li>Reese: They literally don't interact at all</li>
+          </ol>
+        </div>
+      </section>
+
+      <section>
+        <div class="factLink">
+          <a class="factPage" href="../HTML/pugFacts.html"
+            >Click here to learn more about pugs!</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <script src="../main.js"></script>
+  </body>
+</html>

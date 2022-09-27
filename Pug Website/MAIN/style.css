@@ -1,0 +1,286 @@
+/*-----BODY SECTION-----*/
+body {
+  text-align: center;
+  background-color: bisque;
+}
+/*----------------------*/
+
+
+
+/*-----INTRO SECTION-----*/
+.monologue {
+  width: 500px;
+  text-align: center;
+  margin: auto;
+}
+/*----------------------*/
+
+
+
+/*-----BUTTON SECCTION-----*/
+#picBtn {
+  background-color: antiquewhite;
+  border-style:solid;
+  border-width: 0.5px;
+  height:30px;
+}
+
+#picBtn:hover {
+  background-color: chocolate;
+  color:white;
+}
+
+
+
+/*-----FACT SECTION-----*/
+.factTitle,
+.rankTitle,
+.introTitle {
+  margin-bottom: -10px;
+  margin-top: 50px;
+}
+.factContainer {
+  padding: 0;
+  text-align: center;
+}
+.factList {
+  display: inline-block;
+  text-align: left;
+  /*Margin-left -15px, if needed*/
+}
+.factLink {
+  margin-bottom: 100px;
+}
+.factPage:visited {
+  color: gray;
+}
+.factPage:hover {
+  color: chocolate;
+}
+/*----------------------*/
+
+
+
+/*-----RANK SECTION-----*/
+.rankContainer {
+  text-align: center;
+}
+.rankList {
+  display: inline-block;
+  text-align: left;
+  /*Margin-left -15px, if needed*/
+}
+.top5Container {
+  margin: auto;
+  max-width: 50%;
+}
+.fa1Container {
+  margin-top: 50px;
+}
+/*----------------------*/
+
+
+
+/*-----DROPDOWN-----*/
+.dropdownList,
+.dropdown {
+  /* Dropdown section */
+  padding: 0;
+  list-style: none;
+  max-width: 50%;
+  border-style: solid;
+  margin: auto;
+  margin-bottom: 20px;
+  background: blanchedalmond;
+}
+.dropdownList li {
+  /* Dropdown List */
+  display: inline-block;
+  position: relative;
+  line-height: 21px;
+  text-align: center;
+}
+.dropdownList li a {
+  /* Dropdown Anchor */
+  display: block;
+  padding: 8px 25px;
+  color: #333;
+  text-decoration: none;
+}
+.dropdownList li a:hover {
+  /*Hovering over the dropddown */
+  color: #fff;
+  background: #939393;
+}
+.dropdownList li ul.dropdown {
+  /*Setting up the dropdown */
+  min-width: 100%;
+  background: blanchedalmond;
+  border-style:none;
+  display: none;
+  position: absolute;
+  z-index: 999;
+  left: 0;
+}
+.dropdownList li:hover ul.dropdown {
+  /* Display the dropdown */
+  display: block; 
+}
+.dropdownList li ul.dropdown li {
+  display: block;
+}
+/*----------------------*/
+
+
+
+/*-----FAQ Section-----*/
+.aboutMessage {
+  max-width:50%;
+  margin:auto;
+}
+#faq {
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+.faqTitle {
+  margin-bottom: -30px;
+  margin-top:50px;
+  text-decoration:underline;
+}
+.faq5 {
+  padding-bottom: 10px;
+}
+.faq2 p {
+  margin-bottom: -10px;
+}
+/*----------------------*/
+
+
+
+/*-----Contacts Section-----*/
+.contactList {
+  display: inline-block;
+  text-align:center;
+  list-style:none;
+  font-size: 30px;
+  margin-right:60px;
+  margin-top:-40px;
+}
+.contactList li {
+  margin: 50px;
+}
+
+#socials {
+  color:#333;
+  text-decoration:none;
+}
+#socials:visited{
+  color: grey;
+}
+#socials:hover {
+  color: chocolate;
+}
+/*----------------------*/
+
+
+/*-----Toys Section-----*/
+.toyContainer {
+  display:inline-block;
+  max-width:250px;
+  margin-left:50px;
+  margin-right:50px;
+}
+
+.toyContainer a {
+  color:black;
+  text-decoration:none;
+  margin-bottom:50px;
+}
+.toyContainer a:hover{
+  color:chocolate;
+}
+
+.toyPicture{
+  margin-bottom:40px;
+}
+
+#chewToyContainer {
+  position:relative;
+  top:-20px;
+}
+
+#otherToyContainer {
+  position:relative;
+  top:-160px;
+  margin-bottom: 50px;
+}
+
+#squeakyToyContainer {
+  position:relative;
+  top:3px;
+
+}
+/*----------------------*/
+
+
+
+/*-----Food section-----*/
+.foodContainer{
+  display:inline-block;
+  position:relative;
+  max-width:250px;
+  max-height:400px;
+  text-align:left;
+  border-style:solid;
+  border-color:black;
+}
+.food h2 {
+  margin-bottom:30px;
+  margin-top:30px;
+}
+.foodContainer a {
+  color:black;
+  text-decoration:none;
+}
+.foodContainer a:hover {
+  color:chocolate;
+}
+#amazonFood {
+  right:200px;
+}
+#purinaFood {
+  right:70px;
+}
+#cesarFood {
+  left:70px;
+}
+#purinaWetFood {
+  max-width:275;
+  top:-10px;
+  left:200px;
+}
+#pedigreeFood {
+  right:200px;
+}
+#purinaOneFood {
+  right:70px;
+}
+#orijenFood {
+  left:70px;
+}
+#rrFood {
+  top:-10px;
+  left:200px;
+}
+
+
+/*-----TREAT INPUT-----*/
+.treatInput {
+  margin-bottom: 10px;
+}
+
+.treatInput {
+  border-style: solid;
+  border-width:1px;
+}
+
